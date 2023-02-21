@@ -1,0 +1,381 @@
+.formBlock {
+  width: 1070px;
+}
+.formInput {
+  width: 1070px;
+  padding: 21px 25px 32px 25px;
+  margin-bottom: 12px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 10%);
+}
+.inputBlock {
+  width: 441px;
+  padding: 0 15px;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  div {
+    display: flex;
+    flex-direction: column;
+    label {
+      margin-bottom: 6px;
+      font-size: 12px;
+      display: block;
+      color: #39444f;
+    }
+    .input1 {
+      padding: 5px 10px;
+      width: 300px;
+      border: none;
+      border: 1px solid #ccc;
+      background: #fff;
+      border-radius: 2px;
+      outline: 0;
+    }
+  }
+  .input2 {
+    width: 99px;
+    border: none;
+    border: 1px solid #ccc;
+    background: #fff;
+    border-radius: 2px;
+    outline: 0;
+    padding: 5px 10px;
+  }
+  .input2::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+}
+
+.inputBigBlock {
+  display: flex;
+  align-items: end;
+  margin-bottom: 30px;
+  label {
+    margin-bottom: 6px;
+    font-size: 12px;
+    display: block;
+    color: #39444f;
+  }
+  .input5 {
+    width: 136px;
+    border: none;
+    border: 1px solid #ccc;
+    background: #fff;
+    border-radius: 2px;
+    outline: 0;
+    padding: 5px 10px;
+    color: #39444f;
+    cursor: pointer;
+  }
+}
+.buttonBlock {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  div {
+    width: 353px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .btn1 {
+      border: none;
+      cursor: pointer;
+      background-color: #64b82a;
+      border-color: #64b82a;
+      color: #fff;
+      letter-spacing: 1.1px;
+      border-radius: 21px;
+      font-weight: 700;
+      font-size: 12px;
+      padding: 15px 30px;
+      transition: all 0.3s linear;
+    }
+    .btn2 {
+      border: none;
+      letter-spacing: 1.1px;
+      cursor: pointer;
+      background-color: #e6ba4d;
+      color: #fff;
+      border-color: #e6ba4d;
+      border-radius: 21px;
+      font-weight: 700;
+      font-size: 12px;
+      padding: 15px 30px;
+      transition: all 0.3s linear;
+    }
+    .btn2:hover {
+      background-color: #cc9e29;
+      transform: translateY(-1.5px);
+    }
+    .btn2:active {
+      background-color: #e6ba4d;
+      transform: translateY(1.5px);
+    }
+    .btn1:hover {
+      background-color: #387a09;
+      transform: translateY(-1.5px);
+    }
+    .btn1:active {
+      background-color: #64b82a;
+      transform: translateY(1.5px);
+    }
+  }
+  .btn3 {
+    border: none;
+    letter-spacing: 1.1px;
+    cursor: pointer;
+    color: #478cc8;
+    background-color: transparent;
+    border: 1px solid #478cc8;
+    border-radius: 21px;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 15px 30px;
+    font-weight: 600;
+    transition: all 0.3s linear;
+  }
+  .btn3:hover {
+    background-color: #478cc8;
+    color: #fff;
+    transform: translateY(-1.5px);
+  }
+  .btn3:active {
+    background-color: transparent;
+    color: #478cc8;
+    transform: translateY(1.5px);
+  }
+}
+.addBlock1 {
+  padding: 20px 105px 25px 25px;
+  width: 533px;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 10%);
+  background-image: url("https://files.ati.su/static/mp/assets/img/large_load.svg");
+  background-position: 372.5px 50px;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  h3 {
+    font-size: 16px;
+    line-height: 24px;
+    color: #39444f;
+    font-weight: normal;
+  }
+  p {
+    font-size: 12px;
+    line-height: 16px;
+    margin: 5px 0 10px;
+    color: #39444f;
+    font-weight: normal;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  button {
+    margin-top: 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    border-radius: 42px;
+    border: 1px solid #478cc8;
+    background-color: transparent;
+    padding: 15px 20px;
+    color: #478cc8;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 10px;
+    height: 42px;
+    letter-spacing: 0.8px;
+    cursor: pointer;
+    padding-left: 26px;
+    transition: all 0.3s linear;
+    span {
+      margin-right: 6px;
+      padding-left: 3.5px;
+      padding-right: 3px;
+      padding-top: 2.5px;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background-color: rgba(161, 181, 197, 0.831);
+      color: #fff;
+    }
+  }
+  button:hover {
+    background-color: #478cc8;
+    color: #fff;
+    transform: translateY(2px);
+  }
+  button:hover span {
+    color: #478cc8;
+  }
+    button:active {
+    background-color: #fff;
+    transform: translateY(2px);
+    color: #478cc8;
+  }
+  button:active span {
+    color: #fff;
+  }
+}
+
+
+.addBlock2 {
+  padding: 20px 105px 25px 25px;
+  width: 533px;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 10%);
+  background-image: url("https://files.ati.su/static/mp/assets/img/large_truck.svg");
+  background-position: 372.5px 50px;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  h3 {
+    font-size: 16px;
+    line-height: 24px;
+    color: #39444f;
+    font-weight: normal;
+  }
+  p {
+    font-size: 12px;
+    line-height: 16px;
+    margin: 5px 0 10px;
+    color: #39444f;
+    font-weight: normal;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  button {
+    margin-top: 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    border-radius: 42px;
+    border: 1px solid #478cc8;
+    background-color: transparent;
+    padding: 15px 20px;
+    color: #478cc8;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 10px;
+    height: 42px;
+    letter-spacing: 0.8px;
+    cursor: pointer;
+    padding-left: 26px;
+    transition: all 0.3s linear;
+    span {
+      margin-right: 6px;
+      padding-left: 3.5px;
+      padding-right: 3px;
+      padding-top: 2.5px;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background-color: rgba(161, 181, 197, 0.831);
+      color: #fff;
+    }
+  }
+  button:hover {
+    background-color: #478cc8;
+    color: #fff;
+    transform: translateY(-2px);
+
+  }
+  button:active span {
+    color: #478cc8;
+  }
+    button:active {
+    background-color: #fff;
+    transform: translateY(2px);
+    color: #478cc8;
+  }
+  button:hover span {
+    color: #fff;
+  }
+  
+}
+.addBigBlock {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 65px;
+}
+.faqBlock {
+  width: 330px;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 10%);
+  padding: 20px 35px 35px 25px;
+  margin-bottom: 40px;
+}
+.hero__container {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.list1 {
+  border-bottom: 0.5px solid rgb(155, 150, 150);
+  a {
+    font-size: 16px;
+    margin-bottom: 10px;
+    letter-spacing: -0.1px;
+    color: #478cc8;
+    border-bottom: 2px solid transparent;
+  }
+  a:hover{
+    border-bottom: 2px solid #478cc8;
+  }
+  .linka {
+  font-size: 15px;
+  font-weight: 400;
+}
+  padding-bottom: 20px;
+}
+.list2{
+  padding-top: 20px;
+  a{
+    font-size: 13px;
+      margin-bottom: 10px;
+    letter-spacing: -0.1px;
+    font-weight: 300;
+       color: #478cc8;
+    border-bottom: 1px solid transparent;
+    
+  }
+  span{
+background-color:#64B82A;
+font-size: 13px;
+font-weight: 500;
+color: #fff;
+padding: 3px;
+border-radius: 3px;
+display: inline-block;
+margin-left: 3px;
+cursor: pointer;
+  }
+  li:hover  a{
+    border-bottom: 1px solid #478cc8; 
+    
+  }
+    a:hover{
+    border-bottom: 1px solid #478cc8;
+  }
+}
+
+.rekkkk{
+  position: absolute;
+  right: 50px;
+  cursor: pointer;
+}
+.rekkkk:hover{
+  opacity: 0.7;
+}
+.rekkkkBottom:hover{
+  opacity: 0.7;
+}
+.rekkkkBottom{
+   position: absolute;
+  right: 35px;
+  bottom: 10%;
+  cursor: pointer; 
+}

@@ -1,0 +1,32 @@
+@import "./style/header";
+@import "./style/hero";
+@import "./style/servis";
+@import "./style/mobile";
+@import "./style/footer";
+@import "./style/login";
+@import "./style/news";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  background-color: #f2f2f2;
+  font-family: Verdana, sans-serif;
+}
+a{
+  display: inline-block;
+}
+img{
+  width: 100%;
+  max-width: 100%;
+}
+.container{
+width: 1520px;
+margin-right: auto;
+margin-left: auto;
+padding: 0 20px;
+position: relative;
+}

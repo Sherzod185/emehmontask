@@ -1,0 +1,50 @@
+.login {
+  width: 100%;
+ margin: auto;
+
+  text-align: center;
+  padding-top: 200px;
+  display: block;
+  background-image: url("https://www.spot.uz/media/img/2022/12/OpF0lT16711700667441_l.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  h1{
+    color: #1F04E9;
+    font-size: 50px;
+  }
+  p{
+    img{
+      width: 80px;
+    }
+  }
+}
+
+.login a{
+  background-color: #1f04e9;
+  color: #fbfafa;
+  font-weight: 700;
+  box-shadow: 2px 2px 10px 2px rgb(78, 75, 75);
+  padding: 20px 125px;
+  font-size: 21px;
+  border-radius: 5px;
+transition: all 0.15s linear;
+}
+.login a:hover{
+  transform: translateY(-3px);
+  background-color: #5844ef;
+  color: #fbfafa;
+}
+.login a:active{
+    transform: translateY(3px);
+     background-color: #1f04e9;
+  color: #fff;
+}
+a{
+  cursor: pointer;
+}
+.d_flex{
+  p{
+    cursor: pointer;
+  }
+}
